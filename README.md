@@ -2,9 +2,14 @@
 
 [![GitHub](https://img.shields.io/github/license/Nembie/iban-rule?style=flat-square)](LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/Nembie/iban-rule?style=flat-square)](Issues)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/Nembie/iban-rule)](Downloads)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/Nembie/iban-rule?style=flat-square)](Downloads)
+[![GitHub Release](https://img.shields.io/github/v/release/Nembie/iban-rule?style=flat-square)](Release)
 
 This package provides a custom validation rule for Laravel to validate International Bank Account Numbers (IBANs). It uses the validation rules defined by the Single Euro Payments Area (SEPA) and other non-SEPA countries to ensure that the given IBAN is valid.
+
+### 🧰 Requirements
+- ```PHP >= 8.1```
+- ```Laravel >= 10```
 
 ### ⚙️ Installation
 You can install this package using Composer:
